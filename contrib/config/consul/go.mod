@@ -1,6 +1,8 @@
 module github.com/go-kratos/kratos/contrib/config/consul/v2
 
-go 1.21
+go 1.21.1
+
+toolchain go1.24.2
 
 require (
 	github.com/go-kratos/kratos/v2 v2.8.4
@@ -24,8 +26,8 @@ require (
 	github.com/mitchellh/go-homedir v1.1.0 // indirect
 	github.com/mitchellh/mapstructure v1.5.0 // indirect
 	golang.org/x/exp v0.0.0-20230817173708-d852ddb80c63 // indirect
-	golang.org/x/sys v0.28.0 // indirect
-	google.golang.org/protobuf v1.33.0 // indirect
+	golang.org/x/sys v0.29.0 // indirect
+	google.golang.org/protobuf v1.36.3 // indirect
 	gopkg.in/yaml.v3 v3.0.1 // indirect
 )
 

@@ -1,11 +1,13 @@
 module github.com/go-kratos/kratos/contrib/log/aliyun/v2
 
-go 1.21
+go 1.21.1
+
+toolchain go1.24.2
 
 require (
 	github.com/aliyun/aliyun-log-go-sdk v0.1.99
 	github.com/go-kratos/kratos/v2 v2.8.4
-	google.golang.org/protobuf v1.33.0
+	google.golang.org/protobuf v1.36.3
 )
 
 require (
@@ -18,7 +20,7 @@ require (
 	github.com/pierrec/lz4/v4 v4.1.22 // indirect
 	github.com/pkg/errors v0.9.1 // indirect
 	go.uber.org/atomic v1.9.0 // indirect
-	golang.org/x/net v0.33.0 // indirect
+	golang.org/x/net v0.34.0 // indirect
 	gopkg.in/natefinch/lumberjack.v2 v2.0.0 // indirect
 )
 
